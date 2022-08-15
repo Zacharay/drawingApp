@@ -1,0 +1,70 @@
+/*---01 Typography system    
+-FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98   
+-Font weights
+-Line height
+---02 Colors
+Primary:
+-Tints: 
+-Shades:
+-Accents:
+-Greys:
+---05 Shadows
+--- 06 Border-Radius
+---07 Whitespace
+-SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    font-size:62.5%;
+}
+body{
+    font-family: 'Press Start 2P', cursive;
+    background-color:#212529;
+    color:white;
+    display:flex;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+}
+.container
+{
+    width:1200px;
+}
+.title{
+    font-size:3.2rem;
+    color:#be4bdb;
+    text-align: center;
+    margin-bottom:8rem;
+}
+.content-container{
+    display:flex;
+    gap:6.4rem;
+    align-items: center;
+}
+.grid{
+    background-color: white;
+    box-shadow: 0px 0px 4px 3px rgba(255, 255, 255, 0.329);
+    display:grid;
+    margin:3.2rem;
+    width:500px;
+    height:500px;
+}
+.border-top{
+    border-top:2px solid black;
+}
+.border-left{
+    border-left:2px solid black;
+}
+.border-right{
+    border-right:2px solid black;
+}
+.border-bottom{
+    border-bottom:2px solid black;
+}
